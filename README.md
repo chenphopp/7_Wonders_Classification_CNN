@@ -22,6 +22,7 @@ Overall, this study aims to explore the effectiveness of transfer learning and C
 The dataset used in this project consists of images representing the New 7 Wonders of the World, which are world-famous landmarks selected through a global voting campaign. Each class corresponds to one of the seven wonders, as listed below: 
 
 Great Wall of China — China 
+<img width="310" height="163" alt="image" src="https://github.com/user-attachments/assets/50cab860-9c25-488a-9669-d8496bd85a20" />
 
 Petra — Jordan 
 
