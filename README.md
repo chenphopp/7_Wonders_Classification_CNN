@@ -70,6 +70,7 @@ The images were collected from open-source image repositories such as Unsplash, 
 
 ## 3. Data Preparation
 Data preparation and pre-processing
+
 Before training, all images were preprocessed as follows:
 o	Resizing: Each image was resized to 224×224 pixels to fit the input shape of pre-trained CNN models
 o	Augmentation technique were applied to increase dataset diversity and reduce overfitting.
