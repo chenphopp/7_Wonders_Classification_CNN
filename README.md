@@ -10,7 +10,20 @@ Project Name: 7 Wonder Places Classification with CNN
 Meanwhile, ResNet50V2 improves by +2.77%, and NASNetMobile shows the largest jump of +71.0%, indicating strong adaptation after fine-tuning.
 
 4. Overall, the models effectively learned distinctive visual features of the Seven Wonders of the World, enabling accurate classification through feature extraction and fine-tuned representation learning.
- 
+
+## 📑 Table of Contents
+1. [Introduction 🎯](#1-introduction)
+2. [Dataset Description 📜](#2-Dataset-Description)
+3. [Data Sources 📘](#3-Data-Sources)
+4. [Model architecture 🧠](#4-Model-architecture)
+5. [Results 📊](#5-results-)
+6. [Experimental Results 💬](#6-Experimental-Results)
+7. [Discussion and Conclusion 🧾](#7-Discussion-and-Conclusion)
+8. [References 🌐](#8-references-)
+9. [🎥 Member, Contribution and Responsibility](#Member,-Contribution-and-Responsibility)
+10. [End credit ](#-End-credit)
+
+
 ## 1. Introduction
 This project aims to evaluate and compare the performance of four CNN pre-trained models — VGG16, ResNet50V2, Xception, and InceptionV3 — originally trained on the ImageNet dataset, by fine-tuning them to classify the New 7 Wonders of the World, which include: 
 ```
@@ -327,7 +340,7 @@ The Grad-CAM visualization of NASNetMobile shows that the model generally focuse
 
 
 
-## 9. Member, Contribution and Responsibility
+## Member, Contribution and Responsibility
 ### 👥 Team Contributions
 
 | No. | ID | Name | % Contribution | Responsibility |
@@ -337,7 +350,7 @@ The Grad-CAM visualization of NASNetMobile shows that the model generally focuse
 | 3 | 6710422029 | **Tanapong Amkwanyeun ** | 25% | - Collecting data (Colosseum and Taj Mahal) <br> - Fine-tune Model **ResNet50V2** |
 | 4 | 6710422032 | **Tharathip Khumlert** | 25% | - Collecting data (xx and xx) <br> - Fine-tune Model **xx** |
 
-## 10. End credit  
+## End credit  
 
 This project is a part of DADS7202 Deep Learning 
 
