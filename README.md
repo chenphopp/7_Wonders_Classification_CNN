@@ -57,14 +57,7 @@ The images were collected from open-source image repositories such as Unsplash, 
 Check amount of inages per classes  
 <img width="500" height="292" alt="image" src="https://github.com/user-attachments/assets/aad620ea-f0ca-469b-89fa-f961b6313f29" />
 
-<div style="display: flex; justify-content: space-around;">
-    <img src="https://github.com/user-attachments/assets/284f3196-38d3-4af9-83d2-9b9cdb323c30" alt="Train dataset" width="400"/>
-    <img src="https://github.com/user-attachments/assets/98c3f614-57cc-49cb-af95-48bb77566405" alt="Validation dataset" width="400"/>
-</div>
-
-<div style="text-align: center;">
-    <img src="https://github.com/user-attachments/assets/09ae0339-c76f-4157-851b-4f264e16e8cd" alt="Test dataset" width="400"/>
-</div>
+<img width="1790" height="489" alt="image" src="https://github.com/user-attachments/assets/036566db-ab2a-4bfc-a65b-45f846145fb3" />
 
 Check image quality per classes  
 <div style="display: flex; justify-content: space-around;">
