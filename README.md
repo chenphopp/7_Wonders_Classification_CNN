@@ -95,3 +95,10 @@ This dataset serves as a custom, domain-specific dataset that differs significan
 ## 4.  Model architecture
 
 *Inception V3*
+
+Without Fine-tuning
+<img width="1769" height="441" alt="image" src="https://github.com/user-attachments/assets/9b84ffd8-8d5a-4e16-bd03-9da24695383d" />
+
+With Fine-tuning
+<img width="714" height="411" alt="image" src="https://github.com/user-attachments/assets/1c1e54a3-dc38-4342-88b6-8e6d941de8c3" />
+
