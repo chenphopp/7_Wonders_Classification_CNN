@@ -56,5 +56,6 @@ The images were collected from open-source image repositories such as Unsplash, 
 ### 2. Imbalance dataset
 <img width="688" height="292" alt="image" src="https://github.com/user-attachments/assets/aad620ea-f0ca-469b-89fa-f961b6313f29" />
 
+![Uploading image.png…]()
 
 
