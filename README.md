@@ -213,18 +213,14 @@ In this experiment, we have selected 4 Pre-training Models for fine-tuning with 
   <br>
 </p>
 
-- Network Architecture of Pre-training with and without out Fine-tuning - **InceptionV3**
+- Network Architecture of Pre-training without Fine-tuning - **InceptionV3**
 <p align="center">
   <img width="304" height="676" alt="image" src="https://github.com/user-attachments/assets/5a90830c-5d8e-4f7a-abf1-4e18f27ef194" />
   <br>
 </p>
 
--  Network Architecture of Pre-training with Fine-tuning (The Best Performance Model)- **InceptionV3**
-
-
-
-
-
+- Network Architecture of Pre-training with Fine-tuning (The Best Performance Model)- **InceptionV3** - **Unfrozen last 40 layers**
+<img width="761" height="285" alt="image" src="https://github.com/user-attachments/assets/d48fb231-5403-48f5-84f1-ed7ab5be2b61" />
 
 ### 4.4 NASNetMobile
 
