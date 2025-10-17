@@ -172,14 +172,13 @@ In this experiment, we have selected 4 Pre-training Models for fine-tuning with 
 
 ### 4.3 Inception V3
 
-Without Fine-tuning  
-<img width="1769" height="441" alt="image" src="https://github.com/user-attachments/assets/9b84ffd8-8d5a-4e16-bd03-9da24695383d" />
+- Network Architecture of Pre-training model without fine-tuning vs with Fine tuning - VGG16
 
-With Fine-tuning  
-<img width="714" height="411" alt="image" src="https://github.com/user-attachments/assets/1c1e54a3-dc38-4342-88b6-8e6d941de8c3" />
+<img width="1342" height="412" alt="image" src="https://github.com/user-attachments/assets/1b7ff7a1-39d2-41a1-b10c-360731c275c0" />
 
-Model Plotting  
-<img width="1292" height="2922" alt="image" src="https://github.com/user-attachments/assets/42f040d1-b411-49bd-bae1-b3ac1b41f37e" />
+- Network Architecture of Pre-training with and without out Fine-tuning - **InceptionV3**
+
+<img width="304" height="676" alt="image" src="https://github.com/user-attachments/assets/5a90830c-5d8e-4f7a-abf1-4e18f27ef194" />
 
 ### 4.4 NASNetMobile
 
