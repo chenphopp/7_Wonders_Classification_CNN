@@ -69,10 +69,10 @@ The images were collected from open-source image repositories such as Unsplash, 
 <img width="1083" height="381" alt="image" src="https://github.com/user-attachments/assets/581e144b-e19c-4e63-b10b-469f9b396277" />
 
 ## 3. Data Preparation
-Data preparation and pre-processing__
-Before training, all images were preprocessed as follows:__
-o	Resizing: Each image was resized to 224×224 pixels to fit the input shape of pre-trained CNN models.__
-o	Augmentation technique were applied to increase dataset diversity and reduce overfitting.__
+Data preparation and pre-processing  
+Before training, all images were preprocessed as follows:  
+o	Resizing: Each image was resized to 224×224 pixels to fit the input shape of pre-trained CNN models.  
+o	Augmentation technique were applied to increase dataset diversity and reduce overfitting.  
 
 <img width="1050" height="348" alt="image" src="https://github.com/user-attachments/assets/a1db14a9-bde7-4037-8c56-23a089ac8a68" />
 
