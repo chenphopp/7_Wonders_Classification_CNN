@@ -57,9 +57,9 @@ The images were collected from open-source image repositories such as Unsplash, 
 <img width="688" height="292" alt="image" src="https://github.com/user-attachments/assets/aad620ea-f0ca-469b-89fa-f961b6313f29" />
 
 <div class="row">
-  <img src="https://github.com/user-attachments/assets/284f3196-38d3-4af9-83d2-9b9cdb323c30" alt="Train dataset" width="500"/>
-  <img src="https://github.com/user-attachments/assets/98c3f614-57cc-49cb-af95-48bb77566405" alt="Validation dataset" width="500"/>
-  <img src="https://github.com/user-attachments/assets/09ae0339-c76f-4157-851b-4f264e16e8cd" alt="Test dataset" width="500"/>
+  <img src="https://github.com/user-attachments/assets/284f3196-38d3-4af9-83d2-9b9cdb323c30" alt="Train dataset" width="400"/>
+  <img src="https://github.com/user-attachments/assets/98c3f614-57cc-49cb-af95-48bb77566405" alt="Validation dataset" width="400"/>
+  <img src="https://github.com/user-attachments/assets/09ae0339-c76f-4157-851b-4f264e16e8cd" alt="Test dataset" width="400"/>
 </div>
 
 <img width="925" height="597" alt="image" src="https://github.com/user-attachments/assets/f560781b-eab6-4623-b771-4f6e9e6967f5" />
