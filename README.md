@@ -22,15 +22,23 @@ Overall, this study aims to explore the effectiveness of transfer learning and C
 The dataset used in this project consists of images representing the New 7 Wonders of the World, which are world-famous landmarks selected through a global voting campaign. Each class corresponds to one of the seven wonders, as listed below: 
 
 Great Wall of China — China 
-***
 <img width="310" height="163" alt="image" src="https://github.com/user-attachments/assets/50cab860-9c25-488a-9669-d8496bd85a20" />
 
 Petra — Jordan 
+<img width="437" height="203" alt="image" src="https://github.com/user-attachments/assets/e7b3da22-9cc7-4211-ad75-b156c42f64bb" />
 
 Christ the Redeemer — Brazil 
+<img width="404" height="269" alt="image" src="https://github.com/user-attachments/assets/19e06ebe-a6a1-49ce-8419-a8c72556e9a9" />
 
 Machu Picchu — Peru 
+<img width="463" height="260" alt="image" src="https://github.com/user-attachments/assets/2d59ed7e-7616-44a1-ab65-99fa203e07df" />
 
 Chichen Itza — Mexico 
+<img width="470" height="261" alt="image" src="https://github.com/user-attachments/assets/ccd14e66-6334-44c4-8eda-c5a3851bf8e9" />
 
 Colosseum — Italy 
+<img width="443" height="303" alt="image" src="https://github.com/user-attachments/assets/69e994b6-ca0c-4d86-a785-ac85cfa6e3e0" />
+
+Taj Mahal - India
+<img width="467" height="234" alt="image" src="https://github.com/user-attachments/assets/cbbe599c-3383-4eb1-bb8b-51c2af7aefc3" />
+
