@@ -106,7 +106,7 @@ Without Fine-tuning
 With Fine-tuning  
 <img width="714" height="411" alt="image" src="https://github.com/user-attachments/assets/1c1e54a3-dc38-4342-88b6-8e6d941de8c3" />
 
-Model Plotting
+Model Plotting  
 <img width="1292" height="2922" alt="image" src="https://github.com/user-attachments/assets/42f040d1-b411-49bd-bae1-b3ac1b41f37e" />
 
 
