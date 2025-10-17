@@ -262,7 +262,7 @@ We Conducted hyperparameter tuning to identify the optimal configuration that ma
 
 - VGG16
 <p align="center">
- <img width="1155" height="226" alt="image" src="https://github.com/user-attachments/assets/ec315d68-877d-43ad-8d72-56af079d8682" />
+ <img width="1488" height="490" alt="image" src="https://github.com/user-attachments/assets/38325d76-e113-48b3-a10f-34afcf3ae366" />
   <br>
 </p>
 
