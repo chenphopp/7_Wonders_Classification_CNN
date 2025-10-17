@@ -20,7 +20,7 @@ Meanwhile, ResNet50V2 improves by +2.77%, and NASNetMobile shows the largest jum
 6. [Experimental Results 💬](#6-Experimental-Results)
 7. [Discussion and Conclusion 🧾](#7-Discussion-and-Conclusion)
 8. [References 🌐](#8-References)
-9. [🎥 Member, Contribution and Responsibility](#Member,-Contribution-and-Responsibility)
+9. [🎥 Member, Contribution and Responsibility](#👥-Team-Contributions)
 10. [End credit ](#-End-credit)
 
 
