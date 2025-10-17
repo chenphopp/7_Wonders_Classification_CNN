@@ -94,4 +94,4 @@ This dataset serves as a custom, domain-specific dataset that differs significan
 
 ## 4.  Model architecture
 
-*Pre-training Models*
+*Inception V3*
