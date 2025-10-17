@@ -349,10 +349,10 @@ The Grad-CAM visualization of NASNetMobile shows that the model generally focuse
 
 ## End credit  
 
-This project is a part of DADS7202 Deep Learning  
-Semester: 1st Year of education: 2025   
-Master of Science Program in Data Analytics and Data Science (DADS)   
-National Institute of Development Administration (NIDA)   
+- This project is a part of DADS7202 Deep Learning  
+- Semester: 1st Year of education: 2025   
+- Master of Science Program in Data Analytics and Data Science (DADS)   
+- National Institute of Development Administration (NIDA)   
 
 <p align="right">
   <a href="#top">⬆️ Back to top</a>
