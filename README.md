@@ -262,7 +262,7 @@ We Conducted hyperparameter tuning to identify the optimal configuration that ma
 
 - VGG16
 <p align="center">
- <img width="1155" height="226" alt="image" src="https://github.com/user-attachments/assets/429b99f1-df3e-4aac-99fd-1f2b8585b46b" />
+ <img width="1155" height="226" alt="image" src="https://github.com/user-attachments/assets/ec315d68-877d-43ad-8d72-56af079d8682" />
   <br>
 </p>
 
@@ -288,10 +288,9 @@ We Conducted hyperparameter tuning to identify the optimal configuration that ma
 ### 6.2 Test Accuracy/Loss Analysis
 We pre-train the model with initial random weights in the first round and more 2 rounds by another random seed to calculate mean±SD of accuracy and loss on test set as the average of the model performance In each round, accuracy and loss of test sets are not significantly different. That proves the model is good fit.  
 <p align="center">
- <img width="1064" height="256" alt="image" src="https://github.com/user-attachments/assets/295a7d3a-1410-41a9-9a64-3d6a6964fbf5" />
+ <img width="1155" height="226" alt="image" src="https://github.com/user-attachments/assets/b908ff62-f712-4734-9997-6739c7fd94f1" />
   <br>
 </p>
-
 
 ### 6.3 Evaluation Metric on Test Set  
 <p align="center">
