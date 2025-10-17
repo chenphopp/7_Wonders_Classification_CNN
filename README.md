@@ -20,8 +20,8 @@ Meanwhile, ResNet50V2 improves by +2.77%, and NASNetMobile shows the largest jum
 6. [Experimental Results 💬](#6-Experimental-Results)
 7. [Discussion and Conclusion 🧾](#7-Discussion-and-Conclusion)
 8. [References 🌐](#8-References)
-9. [🎥 Member, Contribution and Responsibility](#Contribution-and-Responsibility)
-10. [End credit ](#-End-credit)
+9. [🎥 Member, Contribution and Responsibility](#Member-and-Responsibility)
+10. [End credit](#End-credit)
 
 
 ## 1. Introduction
@@ -337,7 +337,7 @@ The Grad-CAM visualization of NASNetMobile shows that the model generally focuse
 - https://pandas.pydata.org/
 - https://numpy.org/
 
-## Member, Contribution and Responsibility
+## Member and Responsibility
 ### 👥 Team Contributions
 
 | No. | ID | Name | % Contribution | Responsibility |
