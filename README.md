@@ -54,7 +54,7 @@ Taj Mahal - India
 The images were collected from open-source image repositories such as Unsplash, Google Images using keyword-based web scraping. Each category contains a diverse set of photos that vary in lighting conditions, camera angles, weather, and distance, ensuring that the model can generalize across real-world scenarios.
 
 ### 2. Imbalance dataset
-
+Check amount of inages per classes  
 <img width="500" height="292" alt="image" src="https://github.com/user-attachments/assets/aad620ea-f0ca-469b-89fa-f961b6313f29" />
 
 <div style="display: flex; justify-content: space-around;">
@@ -66,6 +66,7 @@ The images were collected from open-source image repositories such as Unsplash, 
     <img src="https://github.com/user-attachments/assets/09ae0339-c76f-4157-851b-4f264e16e8cd" alt="Test dataset" width="400"/>
 </div>
 
+Check image quality per classes  
 <img width="925" height="597" alt="image" src="https://github.com/user-attachments/assets/f560781b-eab6-4623-b771-4f6e9e6967f5" />
 
 <img width="811" height="431" alt="image" src="https://github.com/user-attachments/assets/e859de4e-a403-431f-938d-1561c24f89a4" />
