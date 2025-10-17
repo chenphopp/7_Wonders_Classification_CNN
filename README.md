@@ -80,11 +80,11 @@ o	Augmentation technique were applied to increase dataset diversity and reduce o
 
 o	Normalization: Pixel values were scaled to a range of [0, 1] for faster convergence during training
 
-Data Splitting (Train/ Validation / Test)
-The dataset was then split into three subsets:
-•	Training set: 70% of total (images = 210  images) 
-•	Validation set: 15% of total (images = 30 images)
-•	Test set: 15% of total images (images = 30 images)
+Data Splitting (Train/ Validation / Test)  
+The dataset was then split into three subsets:  
+•	Training set: 70% of total (images = 210  images)   
+•	Validation set: 15% of total (images = 30 images)  
+•	Test set: 15% of total images (images = 30 images)  
 This dataset serves as a custom, domain-specific dataset that differs significantly from the ImageNet dataset, allowing us to evaluate how well pre-trained CNN architectures can adapt to unseen image domains through fine-tuning.
 
 ## 4.  Model architecture
