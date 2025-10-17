@@ -15,13 +15,13 @@ Meanwhile, ResNet50V2 improves by +2.77%, and NASNetMobile shows the largest jum
 1. [Introduction 🎯](#1-introduction)
 2. [Dataset Description 📜](#2-Dataset-Description)
 3. [Data Sources 📘](#3-Data-Preparation-and-Pre-Processing)
-5. [Model architecture 🧠](#4-Model-architecture)
-6. [Results 📊](#5-results-)
-7. [Experimental Results 💬](#6-Experimental-Results)
-8. [Discussion and Conclusion 🧾](#7-Discussion-and-Conclusion)
-9. [References 🌐](#8-references-)
-10. [🎥 Member, Contribution and Responsibility](#Member,-Contribution-and-Responsibility)
-11. [End credit ](#-End-credit)
+4. [Model architecture 🧠](#4-Model-architecture)
+5. [Results 📊](#5-Training-method)
+6. [Experimental Results 💬](#6-Experimental-Results)
+7. [Discussion and Conclusion 🧾](#7-Discussion-and-Conclusion)
+8. [References 🌐](#8-References)
+9. [🎥 Member, Contribution and Responsibility](#Member,-Contribution-and-Responsibility)
+10. [End credit ](#-End-credit)
 
 
 ## 1. Introduction
@@ -134,7 +134,7 @@ Before training, all images were preprocessed as follows:
  
   This dataset serves as a custom, domain-specific dataset that differs significantly from the ImageNet dataset, allowing us to evaluate how well pre-trained CNN architectures can adapt to unseen image domains through fine-tuning.
 
-## 4.  Model architecture
+## 4. Model architecture
 
 ### Pre-training Models 
 In this experiment, we have selected 4 Pre-training Models for fine-tuning with IMAGENET dataset as weight Pre-training Models Information.
@@ -329,7 +329,7 @@ The Grad-CAM visualization of NASNetMobile shows that the model generally focuse
 ## 7. Discussion and Conclusion
 
 
-## 8. Reference
+## 8. References
 - https://www.researchgate.net/figure/Block-diagram-of-Inception-v3-improved-deep-architecture_fig3_341563435
 - https://keras.io/
 - https://stackoverflow.com/questions
