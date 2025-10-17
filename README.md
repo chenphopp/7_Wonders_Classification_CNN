@@ -107,7 +107,7 @@ With Fine-tuning
 <img width="714" height="411" alt="image" src="https://github.com/user-attachments/assets/1c1e54a3-dc38-4342-88b6-8e6d941de8c3" />
 
 ## 5. Training method
-*Training Configuration*
+*Training Configuration*  
 The table below summarizes the key hyperparameter settings used for training all CNN models in both cases — before and after fine-tuning.
 All models were trained using the same optimizer and loss function to ensure consistent evaluation conditions.  
 
