@@ -210,8 +210,48 @@ In this experiment, we have selected 4 Pre-training Models for fine-tuning with 
 
 ## 5. Training method
 *Training Configuration*  
+
 The table below summarizes the key hyperparameter settings used for training all CNN models in both cases — before and after fine-tuning.
 All models were trained using the same optimizer and loss function to ensure consistent evaluation conditions.  
 
-<img width="1106" height="211" alt="image" src="https://github.com/user-attachments/assets/6072c730-f129-4724-9332-d911fd4e8afc" />
+<img width="887" height="218" alt="image" src="https://github.com/user-attachments/assets/c6ffed57-9cdf-4559-b765-c6b0ae404381" />
+
+## 6. Experimental Results
+---
+### 6.1 Training and Validation Accuracy/Loss Analysis
+
+- VGG16  
+<img width="1053" height="348" alt="image" src="https://github.com/user-attachments/assets/51538c4e-ec29-42af-9780-311640213893" />
+
+- RestNet50V2
+<img width="681" height="221" alt="image" src="https://github.com/user-attachments/assets/ad275a9b-a565-4ee9-a0b0-774ff7a0a30a" />
+
+- InceptionV3
+<img width="936" height="345" alt="image" src="https://github.com/user-attachments/assets/f93f51a6-aa0e-4ce9-ba7d-a7ffd72fd5f0" />
+
+- NASNetMobile  
+<img width="936" height="366" alt="image" src="https://github.com/user-attachments/assets/2aa6381f-4c41-46a2-9a21-bccc447cbf97" />
+
+### 6.2 Test Accuracy/Loss Analysis
+We pre-train the model with initial random weights in the first round and more 2 rounds by another random seed to calculate mean±SD of accuracy and loss on test set as the average of the model performance In each round, accuracy and loss of test sets are not significantly different. That proves the model is good fit.  
+
+<img width="803" height="199" alt="image" src="https://github.com/user-attachments/assets/59399f19-674e-4701-9b85-ca6e59f94662" />
+
+### 6.3 Evaluation Metric on Test Set    
+<img width="936" height="840" alt="image" src="https://github.com/user-attachments/assets/5443279f-c88b-4632-b7b7-ef88ad14d98e" />
+
+### 6.4 Runtime Comparison (on Train set)  
+Time per inference step is the average of epoch.  
+GPU : Tesla T4  
+Epoch : 30  
+
+<img width="517" height="131" alt="image" src="https://github.com/user-attachments/assets/8df2d234-7617-44be-b31d-e32bf914751c" />
+...
+
+### 6.5 Visualizing bubble chart to compare pre-training models with fine-tuning in all aspects  
+<img width="465" height="290" alt="image" src="https://github.com/user-attachments/assets/a7121ee4-deea-43a8-b8e3-7cbbda104e05" />  
+
+
+###$ 6.6 Gread-CAM ...
+<img width="999" height="982" alt="image" src="https://github.com/user-attachments/assets/7d12acfe-6e05-436f-a11b-18f2eeb18d2d" />
 
