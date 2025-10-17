@@ -67,11 +67,14 @@ Check amount of inages per classes
 </div>
 
 Check image quality per classes  
-<img width="925" height="597" alt="image" src="https://github.com/user-attachments/assets/f560781b-eab6-4623-b771-4f6e9e6967f5" />
+<div style="display: flex; justify-content: space-around;">
+    <img src="https://github.com/user-attachments/assets/f560781b-eab6-4623-b771-4f6e9e6967f5" alt="Train dataset" width="400"/>
+    <img src="https://github.com/user-attachments/assets/e859de4e-a403-431f-938d-1561c24f89a4" alt="Validation dataset" width="400"/>
+</div>
 
-<img width="811" height="431" alt="image" src="https://github.com/user-attachments/assets/e859de4e-a403-431f-938d-1561c24f89a4" />
-
-<img width="1083" height="381" alt="image" src="https://github.com/user-attachments/assets/581e144b-e19c-4e63-b10b-469f9b396277" />
+<div style="text-align: center;">
+    <img src="https://github.com/user-attachments/assets/581e144b-e19c-4e63-b10b-469f9b396277" alt="Test dataset" width="400"/>
+</div>
 
 ## 3. Data Preparation
 Data preparation and pre-processing  
