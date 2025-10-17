@@ -24,6 +24,7 @@ The dataset used in this project consists of images representing the New 7 Wonde
 Great Wall of China — China 
 
 <img width="310" height="163" alt="image" src="https://github.com/user-attachments/assets/50cab860-9c25-488a-9669-d8496bd85a20" />
+
  
 Petra — Jordan 
 
