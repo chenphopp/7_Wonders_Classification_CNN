@@ -62,7 +62,29 @@ The images were collected from open-source image repositories such as Unsplash, 
 
 <img width="836" height="564" alt="image" src="https://github.com/user-attachments/assets/09ae0339-c76f-4157-851b-4f264e16e8cd" />
 
+<img width="925" height="597" alt="image" src="https://github.com/user-attachments/assets/f560781b-eab6-4623-b771-4f6e9e6967f5" />
 
+<img width="811" height="431" alt="image" src="https://github.com/user-attachments/assets/e859de4e-a403-431f-938d-1561c24f89a4" />
 
+<img width="1083" height="381" alt="image" src="https://github.com/user-attachments/assets/581e144b-e19c-4e63-b10b-469f9b396277" />
 
+## 3. Data Preparation
+Data preparation and pre-processing
+Before training, all images were preprocessed as follows:
+o	Resizing: Each image was resized to 224×224 pixels to fit the input shape of pre-trained CNN models
+o	Augmentation technique were applied to increase dataset diversity and reduce overfitting.
 
+<img width="1050" height="348" alt="image" src="https://github.com/user-attachments/assets/a1db14a9-bde7-4037-8c56-23a089ac8a68" />
+
+<img width="563" height="561" alt="image" src="https://github.com/user-attachments/assets/b3641839-3c69-4de0-b58e-f08968411abd" />
+
+o	Normalization: Pixel values were scaled to a range of [0, 1] for faster convergence during training
+
+Data Splitting (Train/ Validation / Test)
+The dataset was then split into three subsets:
+•	Training set: 70% of total (images = 210  images) 
+•	Validation set: 15% of total (images = 30 images)
+•	Test set: 15% of total images (images = 30 images)
+This dataset serves as a custom, domain-specific dataset that differs significantly from the ImageNet dataset, allowing us to evaluate how well pre-trained CNN architectures can adapt to unseen image domains through fine-tuning.
+
+## 4.  Model architecture
