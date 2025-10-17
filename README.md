@@ -172,7 +172,7 @@ In this experiment, we have selected 4 Pre-training Models for fine-tuning with 
 
 ### 4.3 Inception V3
 
-- Network Architecture of Pre-training model without fine-tuning vs with Fine tuning - VGG16
+- Network Architecture of Pre-training model without fine-tuning vs with Fine tuning - **InceptionV3**
 
 <img width="1342" height="412" alt="image" src="https://github.com/user-attachments/assets/1b7ff7a1-39d2-41a1-b10c-360731c275c0" />
 
