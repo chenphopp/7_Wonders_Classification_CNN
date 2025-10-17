@@ -326,15 +326,16 @@ The bubble chart shows the trade-off between training time, model accuracy, and 
 </p>
 The Grad-CAM visualization of NASNetMobile shows that the model generally focuses on the key architectural features of each landmark when making correct predictions, such as the main structures of Petra or Christ the Redeemer. However, in misclassified cases, like Chichén Itzá → Great Wall of China and Rome Colosseum → Petra, the attention is less precise and often falls on less distinctive areas, leading to lower confidence. Overall, the results indicate that the model relies on meaningful visual cues but can struggle when the landmark features are ambiguous or partially visible. 
 
-
-
 ## 7. Discussion and Conclusion
 
 
-
 ## 8. Reference
-
-
+- https://www.researchgate.net/figure/Block-diagram-of-Inception-v3-improved-deep-architecture_fig3_341563435
+- https://keras.io/
+- https://stackoverflow.com/questions
+- https://www.python.org/
+- https://pandas.pydata.org/
+- https://numpy.org/
 
 ## Member, Contribution and Responsibility
 ### 👥 Team Contributions
