@@ -1,4 +1,15 @@
 Project Name: 7 Wonder Places Classification with CNN
+
+## ✨ Highlight
+
+1. Based on pre-trained model, the highest average accuracy rate is 94.6% achieved by 🥇 ResNet50V2.
+
+2. The best model after fine-tuning is 🏆 InceptionV3, with an average accuracy of 97.47%, improving from 93.3% (no fine-tuning).
+
+3. Both InceptionV3 and VGG16 show significant improvements of +4.17% and +11.26% in test accuracy, respectively.
+Meanwhile, ResNet50V2 improves by +2.77%, and NASNetMobile shows the largest jump of +71.0%, indicating strong adaptation after fine-tuning.
+
+4. Overall, the models effectively learned distinctive visual features of the Seven Wonders of the World, enabling accurate classification through feature extraction and fine-tuned representation learning.
  
 ## 1. Introduction
 This project aims to evaluate and compare the performance of four CNN pre-trained models — VGG16, ResNet50V2, Xception, and InceptionV3 — originally trained on the ImageNet dataset, by fine-tuning them to classify the New 7 Wonders of the World, which include: 
@@ -50,25 +61,39 @@ The dataset used in this project consists of images representing the New 7 Wonde
 
 <img width="443" height="303" alt="image" src="https://github.com/user-attachments/assets/cbbe599c-3383-4eb1-bb8b-51c2af7aefc3" />
 
-### Data Sources
+### 2.1 Data Sources
 The images were collected from open-source image repositories such as Unsplash, Google Images using keyword-based web scraping. Each category contains a diverse set of photos that vary in lighting conditions, camera angles, weather, and distance, ensuring that the model can generalize across real-world scenarios.
 
-### Imbalance dataset
-Check amount of images per classes  
+### 2.2 Imbalance dataset
+<!-- Check amount of images per classes -->
 <p align="center">
   <img width="500" height="292" alt="image" src="https://github.com/user-attachments/assets/aad620ea-f0ca-469b-89fa-f961b6313f29" />
   <br>
+  <b>Figure 1.</b> Number of images per class (Bar chart overview)
+  <br><br>
   <img width="1790" height="489" alt="image" src="https://github.com/user-attachments/assets/036566db-ab2a-4bfc-a65b-45f846145fb3" />
+  <br>
+  <b>Figure 2.</b> Detailed image distribution across all classes
 </p>
 
-Check image quality per classes  
+<!-- Check image quality per classes -->
 <div style="display: flex; justify-content: space-around;">
-    <img src="https://github.com/user-attachments/assets/f560781b-eab6-4623-b771-4f6e9e6967f5" alt="Train dataset" width="400"/>
-    <img src="https://github.com/user-attachments/assets/e859de4e-a403-431f-938d-1561c24f89a4" alt="Validation dataset" width="400"/>
+    <div style="text-align: center;">
+        <img src="https://github.com/user-attachments/assets/f560781b-eab6-4623-b771-4f6e9e6967f5" alt="Train dataset" width="400"/>
+        <br>
+        <b>Figure 3.</b> Image quality samples - Training dataset
+    </div>
+    <div style="text-align: center;">
+        <img src="https://github.com/user-attachments/assets/e859de4e-a403-431f-938d-1561c24f89a4" alt="Validation dataset" width="400"/>
+        <br>
+        <b>Figure 4.</b> Image quality samples - Validation dataset
+    </div>
 </div>
 
-<div style="text-align: center;">
+<div style="text-align: center; margin-top: 15px;">
     <img src="https://github.com/user-attachments/assets/581e144b-e19c-4e63-b10b-469f9b396277" alt="Test dataset" width="400"/>
+    <br>
+    <b>Figure 5.</b> Image quality samples - Test dataset
 </div>
 
 ## 3. Data Preparation and Pre-Processing    
@@ -82,6 +107,7 @@ Before training, all images were preprocessed as follows:
   <tr>
     <td colspan="2" align="center">
        <img width="800" height="800" alt="image" src="https://github.com/user-attachments/assets/a1db14a9-bde7-4037-8c56-23a089ac8a68">
+        <b>Figure 6.</b> 
     </td>
   </tr>
   <tr>
