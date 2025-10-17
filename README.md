@@ -342,19 +342,16 @@ The Grad-CAM visualization of NASNetMobile shows that the model generally focuse
 
 | No. | ID | Name | % Contribution | Responsibility |
 |:---:|:---:|:----------------------|:---------------:|:-------------------------------------------------------------|
-| 1 | 6710422004 | **Chenphop Chanphum ** | 25% | - Collecting data (xx and xx) <br> - Fine-tune Model **VGG16** |
-| 2 | 6710422014 | **Nattanon Jiwhanang ** | 25% | - Collecting data (xx and xx) <br> - Fine-tune Model **NASNetMobile** |
-| 3 | 6710422029 | **Tanapong Amkwanyeun ** | 25% | - Collecting data (Colosseum and Taj Mahal) <br> - Fine-tune Model **ResNet50V2** |
-| 4 | 6710422032 | **Tharathip Khumlert** | 25% | - Collecting data (xx and xx) <br> - Fine-tune Model **xx** |
+| 1 | 6710422004 | Chenphop Chanphum | 25% | - Collecting data (xx and xx) <br> - Fine-tune Model **VGG16** |
+| 2 | 6710422014 | Nattanon Jiwhanang | 25% | - Collecting data (xx and xx) <br> - Fine-tune Model **NASNetMobile** |
+| 3 | 6710422029 | Tanapong Amkwanyeun | 25% | - Collecting data (Colosseum and Taj Mahal) <br> - Fine-tune Model **ResNet50V2** |
+| 4 | 6710422032 | Tharathip Khumler | 25% | - Collecting data (xx and xx) <br> - Fine-tune Model **xx** |
 
 ## End credit  
 
 This project is a part of DADS7202 Deep Learning 
-
-Term: 1 Year of education: 2025 
-
+Semester: 1st Year of education: 2025 
 Master of Science Program in Data Analytics and Data Science (DADS) 
-
 National Institute of Development Administration (NIDA) 
 
 <p align="right">
