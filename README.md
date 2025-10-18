@@ -180,12 +180,6 @@ In this experiment, we have selected 4 Pre-training Models for fine-tuning with 
   <br>
 </p>
 
--  Models Comparing- **VGG16**
-<p align="center">
-  <img width="1209" height="939" alt="image" src="https://github.com/user-attachments/assets/a5459494-1451-4312-8d65-a7f9a748b927" />
-  <br>
-</p>
-
 ### 4.2 RestNet50V2
 
 - Network Architecture of Pre-training model without fine-tuning vs with Fine tuning - **RestNet50V2**
@@ -354,7 +348,7 @@ To address the anomaly in VGG16, fine-tuning should be limited to fewer layers, 
 
 | No. | ID | Name | % Contribution | Responsibility |
 |:---:|:---:|:----------------------|:---------------:|:-------------------------------------------------------------|
-| 1 | 6710422004 | Chenphop Chanphum | 25% | - Collecting data (Machu Picchu and Great Wall of China) <br> - Fine-tune Model **Inception3** |
+| 1 | 6710422004 | Chenphop Chanphum | 25% | - Collecting data (Machu Picchu and Great Wall of China) <br> - Fine-tune Model **InceptionV3** |
 | 2 | 6710422014 | Nattanon Jiwhanang | 25% | - Collecting data (Chichén Itzá and Petra) <br> - Fine-tune Model **VGG16** |
 | 3 | 6710422029 | Tanapong Amkwanyeun | 25% | - Collecting data (Christ the Redeemer) <br> - Fine-tune Model **NASNetMobile** |
 | 4 | 6710422032 | Tharathip Khumler | 25% | - Collecting data (Colosseum and Taj Mahal) <br> - Fine-tune Model **ResNet50V2** |
