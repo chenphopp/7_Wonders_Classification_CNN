@@ -205,8 +205,7 @@ In this experiment, we have selected 4 Pre-training Models for fine-tuning with 
 </p>
   
 -  Network Architecture of Pre-training without Fine-tuning - **RestNet50V2**
-
-   **The bottom  20 Layers of RestNetV50 with Fine tuning (Unfreeze at 170 – 189 Layers)**  
+ 
 <p align="center">
   <img width="426" height="858" alt="image" src="https://github.com/user-attachments/assets/f3418669-1476-4d87-be33-fa0a0d3c20c5" />
      <br>
@@ -215,6 +214,8 @@ In this experiment, we have selected 4 Pre-training Models for fine-tuning with 
 </p>
   
 -  Network Architecture of Pre-training with Fine-tuning (The Best Performance Model)- **RestNet50V2**
+  
+  **The bottom  20 Layers of RestNetV50 with Fine tuning (Unfreeze at 170 – 189 Layers)** 
 <br>
 <table align="center">
   <tr>
@@ -430,12 +431,12 @@ To address the anomaly in VGG16, fine-tuning should be limited to fewer layers, 
 ## 9. Member and Responsibility
 ### 👥 Team Contributions
 
-| No. | ID | Name | % Contribution | Responsibility |
-|:---:|:---:|:----------------------|:---------------:|:-------------------------------------------------------------|
-| 1 | 6710422004 | Chenphop Chanphum | 25% | - Collecting data (Machu Picchu and Great Wall of China) <br> - Fine-tune Model **InceptionV3** |
-| 2 | 6710422014 | Nattanon Jiwhanang | 25% | - Collecting data (Chichén Itzá and Petra) <br> - Fine-tune Model **VGG16** |
-| 3 | 6710422029 | Tanapong Amkwanyeun | 25% | - Collecting data (Christ the Redeemer) <br> - Fine-tune Model **NASNetMobile** |
-| 4 | 6710422032 | Tharathip Khumler | 25% | - Collecting data (Colosseum and Taj Mahal) <br> - Fine-tune Model **ResNet50V2** |
+| No. | ID | Name | 
+|:---:|:---:|:----------------------|
+| 1 | 6710422004 | Chenphop Chanphum | 
+| 2 | 6710422014 | Nattanon Jiwhanang | 
+| 3 | 6710422029 | Tanapong Amkwanyeun |
+| 4 | 6710422032 | Tharathip Khumler | 
 
 ## End credit  
 
