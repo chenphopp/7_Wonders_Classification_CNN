@@ -1,26 +1,24 @@
 # Project Name: 7 Wonder Places Classification with CNN
 
 ## ✨ Highlight
+1. Fine-tuning significantly improved model performance, especially for architectures with lower baseline accuracy (e.g., +11.26% improvement on VGG16), demonstrating the effectiveness of transfer learning in adapting to the target dataset.
 
-1. Based on pre-trained model, the highest average accuracy rate is 94.6% achieved by 🥇 ResNet50V2.
+2. InceptionV3 achieved the highest accuracy (97.47%) while maintaining the shortest training time per epoch (9.41 sec), making it the most efficient model overall.
 
-2. The best model after fine-tuning is 🏆 InceptionV3, with an average accuracy of 97.47%, improving from 93.3% (no fine-tuning).
+3. ResNet50V2 showed the strongest baseline performance (94.6%), indicating that high-quality pre-trained weights can deliver strong results even with minimal fine-tuning.
 
-3. Both InceptionV3 and VGG16 show significant improvements of +4.17% and +11.26% in test accuracy, respectively.
-Meanwhile, ResNet50V2 improves by +2.77%, and NASNetMobile shows the largest jump of +71.0%, indicating strong adaptation after fine-tuning.
-
-4. Overall, the models effectively learned distinctive visual features of the Seven Wonders of the World, enabling accurate classification through feature extraction and fine-tuned representation learning.
+4. A trade-off exists between accuracy and training time — deeper models like VGG16 can improve substantially with fine-tuning but require higher computational cost, whereas lighter models like NASNetMobile offer faster training but limited performance gains.
 
 ## 📑 Table of Contents
 1. [Introduction 🎯](#1-introduction)
 2. [Dataset Description 📜](#2-Dataset-Description)
-3. [Data Sources 📘](#3-Data-Preparation-and-Pre-Processing)
+3. [Data Preparation and Pre-Processing 📘](#3-Data-Preparation-and-Pre-Processing)
 4. [Model architecture 🧠](#4-Model-architecture)
 5. [Results 📊](#5-Training-method)
 6. [Experimental Results 💬](#6-Experimental-Results)
 7. [Discussion and Conclusion 🧾](#7-Discussion-and-Conclusion)
 8. [References 🌐](#8-References)
-9. [🎥 Member, Contribution and Responsibility](#Member-and-Responsibility)
+9. [Member, Contribution and Responsibility🎥](#Member-and-Responsibility)
 10. [End credit](#End-credit)
 
 
