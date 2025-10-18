@@ -392,6 +392,32 @@ The Grad-CAM visualization of NASNetMobile shows that the model generally focuse
 The experimental results show that InceptionV3 achieved the best performance with the highest accuracy (0.9747 ± 0.0068), the lowest loss, and the shortest training time. ResNet50V2 delivered comparable accuracy with stable performance, making it the most practical model for real-world deployment. VGG16 exhibited abnormally high loss despite reasonable accuracy, suggesting instability during fine-tuning, likely due to overfitting or an inappropriate learning rate. NASNetMobile had the lowest accuracy, reflecting its lightweight structure and limited feature extraction capability.
 To address the anomaly in VGG16, fine-tuning should be limited to fewer layers, the learning rate should be reduced, and regularization or early stopping can be applied. For NASNetMobile, performance could be improved by adding extra dense layers, adjusting fine-tuning depth, and using a more suitable optimizer. Additionally, class-specific data augmentation (especially for Machu Picchu) can reduce misclassification and enhance model robustness.
 
+- Eye Ball Analysis
+
+  Both before and after fine-tuning, the model still misclassified the image. However, the change in predicted class and higher confidence (from 0.43 → 0.77) suggests that the model learned additional visual features, though confusion remains between landmarks with similar scenery such as mountains     or sky backgrounds.
+<table align="center">
+  <tr>
+    <th style="text-align:center; font-size:18px;">Before Fine-tuning</th>
+    <th style="text-align:center; font-size:18px;">After Fine-tuning</th>
+  </tr>
+  <tr>
+    <td><img width="688" height="764" alt="image" src="https://github.com/user-attachments/assets/22f4dac8-0b5b-4a2c-b36d-3c951e9ea796" /></td>
+    <td><img width="688" height="764" alt="image" src="https://github.com/user-attachments/assets/21070f46-c563-4777-b9ec-9fc3ee02e102" /></td>
+  </tr>
+</table>
+
+<br>
+
+<table align="center">
+  <tr>
+    <th style="text-align:center; font-size:18px;">Before Fine-tuning</th>
+    <th style="text-align:center; font-size:18px;">After Fine-tuning</th>
+  </tr>
+  <tr>
+    <td><img width="622" height="631" alt="image" src="https://github.com/user-attachments/assets/f5485f9e-ffde-4603-b4cb-c36e7089354c" /></td>
+    <td><img width="622" height="631" alt="image" src="https://github.com/user-attachments/assets/e5e98e5a-46b7-4757-83fa-d4bf264b5919" /></td>
+  </tr>
+</table>
 
 ## 8. References
 - https://www.researchgate.net/figure/Block-diagram-of-Inception-v3-improved-deep-architecture_fig3_341563435
