@@ -180,11 +180,16 @@ In this experiment, we have selected 4 Pre-training Models for fine-tuning with 
 </p>
   
 -  Network Architecture of Pre-training with Fine-tuning (The Best Performance Model)- **VGG16**
+<br>
+<table align="center">
+  <tr>
+    <td><img width="526" height="1035" alt="image" src="https://github.com/user-attachments/assets/a09fda50-7e53-486e-a92c-df8fd795d52f"></td>
+    <td><img width="526" height="1035" alt="image" src="https://github.com/user-attachments/assets/ab12a74a-0d0f-463f-a274-b4ada0d6449c"></td>
+  </tr>
+</table>
 <p align="center">
-  <img width="327" height="939" alt="image" src="https://github.com/user-attachments/assets/a09fda50-7e53-486e-a92c-df8fd795d52f"/>
-     <br>
    <b>Figure 11.</b> 
-  <br>
+     <br>
 </p>
 
 ### 4.2 RestNet50V2
