@@ -366,7 +366,7 @@ The average training time per epoch varies significantly across models due to di
 </p>
 The bubble chart shows the trade-off between training time, model accuracy, and model size. VGG16 has the largest model size, the longest training time per epoch, and relatively lower accuracy compared to the other models. NASNetMobile is smaller and faster but also has the lowest accuracy overall. ResNet50V2 and InceptionV3 achieve the highest accuracy while maintaining much shorter training times, with InceptionV3 being the most efficient. Overall, the chart highlights that larger models like VGG16 are not necessarily more accurate, and more efficient architectures can provide better performance with less computational cost. 
 
-### 6.6 Gread-CAM 
+### 6.6 Grad-CAM 
 <p align="center">
  <img width="999" height="982" alt="image" src="https://github.com/user-attachments/assets/7d12acfe-6e05-436f-a11b-18f2eeb18d2d" /> 
      <br>
