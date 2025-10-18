@@ -116,6 +116,7 @@ Before training, all images were preprocessed as follows:
   <tr>
     <td colspan="2" align="center">
        <img width="800" height="800" alt="image" src="https://github.com/user-attachments/assets/a1db14a9-bde7-4037-8c56-23a089ac8a68">
+     <br>
         <b>Figure 6.</b> 
     </td>
   </tr>
@@ -142,6 +143,7 @@ In this experiment, we have selected 4 Pre-training Models for fine-tuning with 
 <p align="center">
   <img width="1104" height="184" alt="image" src="https://github.com/user-attachments/assets/a9f47852-3027-4043-89d6-8cb708847464"/>
   <br>
+   <b>Figure 7.</b> 
 </p>
 
 ### Baseline Evaluation of Pre-trained CNN Models on the New 7 Wonders Dataset
@@ -156,6 +158,8 @@ In this experiment, we have selected 4 Pre-training Models for fine-tuning with 
   <img src="https://github.com/user-attachments/assets/37c33c26-553a-4f5a-a1fc-aadea198d7e9" width="30%">
   <img src="https://github.com/user-attachments/assets/e48d4163-9c01-4ceb-b391-66a77cefb653" width="30%">
   <img src="https://github.com/user-attachments/assets/9ce2bdd2-f245-484b-90ce-363c49469406" width="30%">
+   <br>
+   <b>Figure 8.</b> 
 </p>
 
 
@@ -164,19 +168,24 @@ In this experiment, we have selected 4 Pre-training Models for fine-tuning with 
 - Network Architecture of Pre-training model without fine-tuning vs with Fine tuning - **VGG16**
 <p align="center">
   <img width="1125" height="417" alt="image" src="https://github.com/user-attachments/assets/f1ececfc-fbfc-47e1-984d-f82ee52cef3a" />
-" 
+    <br>
+   <b>Figure 9.</b> 
   <br>
 </p>
   
 -  Network Architecture of Pre-training without Fine-tuning - **VGG16**
 <p align="center">
   <img width="327" height="594" alt="image" src="https://github.com/user-attachments/assets/69502149-1910-4a16-8832-b341602d0b12" />
+    <br>
+   <b>Figure 10.</b> 
   <br>
 </p>
   
 -  Network Architecture of Pre-training with Fine-tuning (The Best Performance Model)- **VGG16**
 <p align="center">
   <img width="327" height="939" alt="image" src="https://github.com/user-attachments/assets/a09fda50-7e53-486e-a92c-df8fd795d52f"/>
+     <br>
+   <b>Figure 11.</b> 
   <br>
 </p>
 
@@ -187,12 +196,16 @@ In this experiment, we have selected 4 Pre-training Models for fine-tuning with 
 
 <p align="center">
   <img width="1209" height="385" alt="image" src="https://github.com/user-attachments/assets/5a1b98e7-a9a1-4edb-bd4a-01310b6eb118"  />
+     <br>
+   <b>Figure 12.</b> 
   <br>
 </p>
   
 -  Network Architecture of Pre-training without Fine-tuning - **RestNet50V2**
 <p align="center">
   <img width="426" height="858" alt="image" src="https://github.com/user-attachments/assets/f3418669-1476-4d87-be33-fa0a0d3c20c5" />
+     <br>
+   <b>Figure 13.</b> 
   <br>
 </p>
   
@@ -204,6 +217,10 @@ In this experiment, we have selected 4 Pre-training Models for fine-tuning with 
     <td><img width="526" height="1035" alt="image" src="https://github.com/user-attachments/assets/bef79504-2ef6-47f4-9006-adc5a50f07fd"></td>
   </tr>
 </table>
+<p align="center">
+   <b>Figure 14.</b> 
+     <br>
+</p>
 
 
 ### 4.3 Inception V3
@@ -211,36 +228,50 @@ In this experiment, we have selected 4 Pre-training Models for fine-tuning with 
 - Network Architecture of Pre-training model without fine-tuning vs with Fine tuning - **InceptionV3**
 <p align="center">
   <img width="1342" height="412" alt="image" src="https://github.com/user-attachments/assets/5c6ea7b6-7fe3-4a5f-85a6-6031b1591fad" />
+     <br>
+   <b>Figure 15.</b> 
   <br>
 </p>
 
 - Network Architecture of Pre-training without Fine-tuning - **InceptionV3**
 <p align="center">
   <img width="304" height="676" alt="image" src="https://github.com/user-attachments/assets/5a90830c-5d8e-4f7a-abf1-4e18f27ef194" />
+     <br>
+   <b>Figure 16.</b> 
   <br>
 </p>
 
 - Network Architecture of Pre-training with Fine-tuning (The Best Performance Model)- **InceptionV3** - **Unfrozen last 40 layers**
+<p align="center">
 <img width="761" height="285" alt="image" src="https://github.com/user-attachments/assets/d48fb231-5403-48f5-84f1-ed7ab5be2b61" />
+    <br>
+   <b>Figure 17.</b> 
+  <br>
+</p>
 
 ### 4.4 NASNetMobile
 
 - Network Architecture of Pre-training model without fine-tuning vs with Fine tuning - **NASNetMobile**
 <p align="center">
   <img width="1207" height="512" alt="image" src="https://github.com/user-attachments/assets/e70848f2-6eb1-44cb-be20-92242f2332c0" />
+     <br>
+   <b>Figure 18.</b> 
   <br>
 </p>
 
 - Network Architecture of Pre-training with and without out Fine-tuning - **NASNetMobile**
 
 <p align="center">
-  <img width="313" height="559" alt="image" src="https://github.com/user-attachments/assets/997ad048-9ee7-4ee5-9353-236bc34576c0" />
+  <img width="313" height="559" alt="image" src="https://github.com/user-attachments/assets/997ad048-9ee7-4ee5-9353-236bc34576c0" />    <br>
+   <b>Figure 19.</b> 
   <br>
 </p>
 
 -  Network Architecture of Pre-training with Fine-tuning (The Best Performance Model)- **NASNetMobile**
 <p align="center">
   <img width="1465" height="518" alt="image" src="https://github.com/user-attachments/assets/d67c7e42-a2f9-42ba-a7eb-79a897efdab2" />
+     <br>
+   <b>Figure 20.</b> 
   <br>
 </p>
 
@@ -253,6 +284,8 @@ All models were trained using the same optimizer and loss function to ensure con
 We Conducted hyperparameter tuning to identify the optimal configuration that maximizes model performance. (By using Keras Tuner) 
 <p align="center">
   <img width="1161" height="325" alt="image" src="https://github.com/user-attachments/assets/621a3554-1370-4e95-acf1-f564630aa27c" />
+     <br>
+   <b>Figure 21.</b> 
   <br>
 </p>
 
@@ -264,6 +297,8 @@ We Conducted hyperparameter tuning to identify the optimal configuration that ma
 - VGG16
 <p align="center">
  <img width="1488" height="490" alt="image" src="https://github.com/user-attachments/assets/38325d76-e113-48b3-a10f-34afcf3ae366" />
+     <br>
+   <b>Figure 22.</b> 
   <br>
 </p>
 
@@ -271,18 +306,24 @@ We Conducted hyperparameter tuning to identify the optimal configuration that ma
 - RestNet50V2
 <p align="center">
  <img width="1053" height="348" alt="image" src="https://github.com/user-attachments/assets/ad275a9b-a565-4ee9-a0b0-774ff7a0a30a" />
+     <br>
+   <b>Figure 23.</b> 
   <br>
 </p>
 
 - InceptionV3
 <p align="center">
  <img width="1053" height="348" alt="image" src="https://github.com/user-attachments/assets/f93f51a6-aa0e-4ce9-ba7d-a7ffd72fd5f0" />
+     <br>
+   <b>Figure 24.</b> 
   <br>
 </p>
 
 - NASNetMobile
 <p align="center">
  <img width="1053" height="348" alt="image" src="https://github.com/user-attachments/assets/2aa6381f-4c41-46a2-9a21-bccc447cbf97" />
+     <br>
+   <b>Figure 25.</b> 
   <br>
 </p>
 
@@ -290,12 +331,16 @@ We Conducted hyperparameter tuning to identify the optimal configuration that ma
 We pre-train the model with initial random weights in the first round and more 2 rounds by another random seed to calculate mean±SD of accuracy and loss on test set as the average of the model performance In each round, accuracy and loss of test sets are not significantly different. That proves the model is good fit.  
 <p align="center">
  <img width="1155" height="226" alt="image" src="https://github.com/user-attachments/assets/b908ff62-f712-4734-9997-6739c7fd94f1" />
+     <br>
+   <b>Figure 26.</b> 
   <br>
 </p>
 
 ### 6.3 Evaluation Metric on Test Set  
 <p align="center">
  <img width="800" height="711" alt="image" src="https://github.com/user-attachments/assets/054bfdc9-bf72-401f-9340-30c980cb0b14" />
+     <br>
+   <b>Figure 27.</b> 
   <br>
 </p>
 The confusion matrices show that ResNet50V2 delivers the best performance overall, with the clearest diagonal and very few misclassifications. InceptionV3 and VGG16 also perform well, with only minor confusion between a few landmark classes. In contrast, NASNetMobile shows more frequent misclassifications, especially for Taj Mahal, Rome Colosseum, and Machu Picchu. Overall, ResNet50V2 appears to be the most reliable model for landmark image classification in this comparison. 
@@ -307,6 +352,8 @@ Epoch : 30
 
 <p align="center">
  <img width="815" height="193" alt="image" src="https://github.com/user-attachments/assets/01ac8b85-c80a-460a-8ba4-7c712007a680" />
+     <br>
+   <b>Figure 28.</b> 
   <br>
 </p>
 The average training time per epoch varies significantly across models due to differences in their architecture and complexity. InceptionV3 is the fastest (9.41 s) because it has an efficient design with fewer parameters. VGG16 takes the longest time (48.89 s) as it is a large and parameter-heavy model. ResNet50V2 (16.98 s) and NASNetMobile (20.12 s) fall in between, with ResNet50V2 being more optimized. Overall, models with simpler or more efficient architectures train faster on the same GPU. 
@@ -315,6 +362,8 @@ The average training time per epoch varies significantly across models due to di
 ### 6.5 Visualizing bubble chart to compare pre-training models with fine-tuning in all aspects
 <p align="center">
  <img width="909" height="566" alt="image" src="https://github.com/user-attachments/assets/c0a610e0-d6ef-4f42-9953-bbed20d0a62b" />  
+     <br>
+   <b>Figure 29.</b> 
   <br>
 </p>
 The bubble chart shows the trade-off between training time, model accuracy, and model size. VGG16 has the largest model size, the longest training time per epoch, and relatively lower accuracy compared to the other models. NASNetMobile is smaller and faster but also has the lowest accuracy overall. ResNet50V2 and InceptionV3 achieve the highest accuracy while maintaining much shorter training times, with InceptionV3 being the most efficient. Overall, the chart highlights that larger models like VGG16 are not necessarily more accurate, and more efficient architectures can provide better performance with less computational cost. 
@@ -322,6 +371,8 @@ The bubble chart shows the trade-off between training time, model accuracy, and 
 ### 6.6 Gread-CAM 
 <p align="center">
  <img width="999" height="982" alt="image" src="https://github.com/user-attachments/assets/7d12acfe-6e05-436f-a11b-18f2eeb18d2d" /> 
+     <br>
+   <b>Figure 30.</b> 
   <br>
 </p>
 The Grad-CAM visualization of NASNetMobile shows that the model generally focuses on the key architectural features of each landmark when making correct predictions, such as the main structures of Petra or Christ the Redeemer. However, in misclassified cases, like Chichén Itzá → Great Wall of China and Rome Colosseum → Petra, the attention is less precise and often falls on less distinctive areas, leading to lower confidence. Overall, the results indicate that the model relies on meaningful visual cues but can struggle when the landmark features are ambiguous or partially visible. 
@@ -329,6 +380,8 @@ The Grad-CAM visualization of NASNetMobile shows that the model generally focuse
 ## 7. Discussion and Conclusion
 <p align="center">
  <img width="999" height="982" alt="image" src="https://github.com/user-attachments/assets/1706c756-0656-4f99-b2cc-3cb15a4606e2" /> 
+     <br>
+   <b>Figure 31.</b> 
   <br>
  </p>
 The experimental results show that InceptionV3 achieved the best performance with the highest accuracy (0.9747 ± 0.0068), the lowest loss, and the shortest training time. ResNet50V2 delivered comparable accuracy with stable performance, making it the most practical model for real-world deployment. VGG16 exhibited abnormally high loss despite reasonable accuracy, suggesting instability during fine-tuning, likely due to overfitting or an inappropriate learning rate. NASNetMobile had the lowest accuracy, reflecting its lightweight structure and limited feature extraction capability.
