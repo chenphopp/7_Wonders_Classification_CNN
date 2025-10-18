@@ -14,7 +14,7 @@
 2. [Dataset Description 📜](#2-Dataset-Description)
 3. [Data Preparation and Pre-Processing 📘](#3-Data-Preparation-and-Pre-Processing)
 4. [Model architecture 🧠](#4-Model-architecture)
-5. [Results 📊](#5-Training-method)
+5. [Training method 📊](#5-Training-method)
 6. [Experimental Results 💬](#6-Experimental-Results)
 7. [Discussion and Conclusion 🧾](#7-Discussion-and-Conclusion)
 8. [References 🌐](#8-References)
