@@ -220,7 +220,10 @@ In this experiment, we have selected 4 Pre-training Models for fine-tuning with 
 </p>
 
 - Network Architecture of Pre-training with Fine-tuning (The Best Performance Model)- **InceptionV3** - **Unfrozen last 40 layers**
-<img width="761" height="285" alt="image" src="https://github.com/user-attachments/assets/d48fb231-5403-48f5-84f1-ed7ab5be2b61" />
+<p align="center">
+  <img width="761" height="285" alt="image" src="https://github.com/user-attachments/assets/d48fb231-5403-48f5-84f1-ed7ab5be2b61" />
+  <br>
+</p>
 
 ### 4.4 NASNetMobile
 
@@ -326,6 +329,37 @@ The bubble chart shows the trade-off between training time, model accuracy, and 
 The Grad-CAM visualization of NASNetMobile shows that the model generally focuses on the key architectural features of each landmark when making correct predictions, such as the main structures of Petra or Christ the Redeemer. However, in misclassified cases, like Chichén Itzá → Great Wall of China and Rome Colosseum → Petra, the attention is less precise and often falls on less distinctive areas, leading to lower confidence. Overall, the results indicate that the model relies on meaningful visual cues but can struggle when the landmark features are ambiguous or partially visible. 
 
 ## 7. Discussion and Conclusion
+- Among the four CNN models tested for classifying the Seven Wonders of the World, InceptionV3 achieved the best overall performance with the highest accuracy (97.47%) and the lowest loss (0.0899) after fine-tuning, while also requiring the shortest training time per epoch (9.41s). ResNet50V2 showed very similar results (97.37% accuracy),    indicating that the performance difference between the two may not be statistically significant. In contrast, VGG16 performed the worst with the lowest accuracy (94.06%) and the highest loss (0.326), suggesting overfitting or poor generalization. NASNetMobile was lightweight and relatively fast but had higher loss, implying lower           confidence in predictions. Some anomalies were observed in VGG16 and NASNetMobile, likely due to overfitting and insufficient fine-tuning.
+
+- Recommendations:
+Future improvements could include using stronger data augmentation, adjusting learning rates, applying regularization (e.g., dropout, weight decay), and fine-tuning more layers for lightweight models like NASNetMobile. Additionally, conducting statistical tests such as a paired t-test between InceptionV3 and ResNet50V2 would help confirm   whether the difference in performance is statistically significant.
+
+- Eye Ball Analysis
+
+  Both before and after fine-tuning, the model still misclassified the image. However, the change in predicted class and higher confidence (from 0.43 → 0.77) suggests that the model learned additional visual features, though confusion remains between landmarks with similar scenery such as mountains     or sky backgrounds.
+<table align="center">
+  <tr>
+    <th style="text-align:center; font-size:18px;">Before Fine-tuning</th>
+    <th style="text-align:center; font-size:18px;">After Fine-tuning</th>
+  </tr>
+  <tr>
+    <td><img width="688" height="764" alt="image" src="https://github.com/user-attachments/assets/22f4dac8-0b5b-4a2c-b36d-3c951e9ea796" /></td>
+    <td><img width="688" height="764" alt="image" src="https://github.com/user-attachments/assets/21070f46-c563-4777-b9ec-9fc3ee02e102" /></td>
+  </tr>
+</table>
+
+<br>
+
+<table align="center">
+  <tr>
+    <th style="text-align:center; font-size:18px;">Before Fine-tuning</th>
+    <th style="text-align:center; font-size:18px;">After Fine-tuning</th>
+  </tr>
+  <tr>
+    <td><img width="622" height="631" alt="image" src="https://github.com/user-attachments/assets/f5485f9e-ffde-4603-b4cb-c36e7089354c" /></td>
+    <td><img width="622" height="631" alt="image" src="https://github.com/user-attachments/assets/e5e98e5a-46b7-4757-83fa-d4bf264b5919" /></td>
+  </tr>
+</table>
 
 
 ## 8. References
@@ -339,12 +373,12 @@ The Grad-CAM visualization of NASNetMobile shows that the model generally focuse
 ## Member and Responsibility
 ### 👥 Team Contributions
 
-| No. | ID | Name | % Contribution | Responsibility |
-|:---:|:---:|:----------------------|:---------------:|:-------------------------------------------------------------|
-| 1 | 6710422004 | Chenphop Chanphum | 25% | - Collecting data (xx and xx) <br> - Fine-tune Model **VGG16** |
-| 2 | 6710422014 | Nattanon Jiwhanang | 25% | - Collecting data (xx and xx) <br> - Fine-tune Model **NASNetMobile** |
-| 3 | 6710422029 | Tanapong Amkwanyeun | 25% | - Collecting data (Colosseum and Taj Mahal) <br> - Fine-tune Model **ResNet50V2** |
-| 4 | 6710422032 | Tharathip Khumler | 25% | - Collecting data (xx and xx) <br> - Fine-tune Model **xx** |
+| No. | ID | Name 
+|:---:|:---:|:----------------------|
+| 1 | 6710422004 | Chenphop Chanphum
+| 2 | 6710422014 | Nattanon Jiwhanang 
+| 3 | 6710422029 | Tanapong Amkwanyeun 
+| 4 | 6710422032 | Tharathip Khumler 
 
 ## End credit  
 
