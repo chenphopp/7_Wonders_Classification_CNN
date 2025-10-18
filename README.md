@@ -18,7 +18,7 @@
 6. [Experimental Results 💬](#6-Experimental-Results)
 7. [Discussion and Conclusion 🧾](#7-Discussion-and-Conclusion)
 8. [References 🌐](#8-References)
-9. [Member, Contribution and Responsibility🎥](#Member-and-Responsibility)
+9. [Member, Contribution and Responsibility🎥](#9-Member-and-Responsibility)
 10. [End credit](#End-credit)
 
 
@@ -394,7 +394,7 @@ To address the anomaly in VGG16, fine-tuning should be limited to fewer layers, 
 - https://pandas.pydata.org/
 - https://numpy.org/
 
-## Member and Responsibility
+## 9. Member and Responsibility
 ### 👥 Team Contributions
 
 | No. | ID | Name | % Contribution | Responsibility |
