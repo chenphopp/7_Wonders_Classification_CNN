@@ -1,4 +1,4 @@
-Project Name: 7 Wonder Places Classification with CNN
+# Project Name: 7 Wonder Places Classification with CNN
 
 ## ✨ Highlight
 
