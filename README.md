@@ -200,6 +200,8 @@ In this experiment, we have selected 4 Pre-training Models for fine-tuning with 
 </p>
   
 -  Network Architecture of Pre-training without Fine-tuning - **RestNet50V2**
+
+   **The bottom  20 Layers of RestNetV50 with Fine tuning (Unfreeze at 170 – 189 Layers)**  
 <p align="center">
   <img width="426" height="858" alt="image" src="https://github.com/user-attachments/assets/f3418669-1476-4d87-be33-fa0a0d3c20c5" />
      <br>
