@@ -216,7 +216,7 @@ In this experiment, we have selected 4 Pre-training Models for fine-tuning with 
 
 - Network Architecture of Pre-training model without fine-tuning vs with Fine tuning - **InceptionV3**
 <p align="center">
-  <img width="1342" height="412" alt="image" src="https://github.com/user-attachments/assets/1b7ff7a1-39d2-41a1-b10c-360731c275c0" />
+  <img width="1342" height="412" alt="image" src="https://github.com/user-attachments/assets/5c6ea7b6-7fe3-4a5f-85a6-6031b1591fad" />
   <br>
 </p>
 
