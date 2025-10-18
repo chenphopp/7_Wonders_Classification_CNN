@@ -23,7 +23,7 @@
 
 
 ## 1. Introduction
-This project aims to evaluate and compare the performance of four CNN pre-trained models — VGG16, ResNet50V2, Xception, and InceptionV3 — originally trained on the ImageNet dataset, by fine-tuning them to classify the New 7 Wonders of the World, which include: 
+This project aims to evaluate and compare the performance of four CNN pre-trained models — VGG, ResNet, Inception and NasNetMobile — originally trained on the ImageNet dataset, by fine-tuning them to classify the New 7 Wonders of the World, which include: 
 ```
 1. Great Wall of China 
 2. Petra (Jordan) 
