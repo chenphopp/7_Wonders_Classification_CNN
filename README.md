@@ -163,7 +163,8 @@ In this experiment, we have selected 4 Pre-training Models for fine-tuning with 
 
 - Network Architecture of Pre-training model without fine-tuning vs with Fine tuning - **VGG16**
 <p align="center">
-  <img width="1125" height="417" alt="image" src="https://github.com/user-attachments/assets/035a117a-0a98-4ff8-80d9-ffd196fd815f" />
+  <img width="1125" height="417" alt="image" src="https://github.com/user-attachments/assets/f1ececfc-fbfc-47e1-984d-f82ee52cef3a" />
+" 
   <br>
 </p>
   
@@ -176,6 +177,12 @@ In this experiment, we have selected 4 Pre-training Models for fine-tuning with 
 -  Network Architecture of Pre-training with Fine-tuning (The Best Performance Model)- **VGG16**
 <p align="center">
   <img width="327" height="939" alt="image" src="https://github.com/user-attachments/assets/a09fda50-7e53-486e-a92c-df8fd795d52f"/>
+  <br>
+</p>
+
+-  Models Comparing- **VGG16**
+<p align="center">
+  <img width="1209" height="939" alt="image" src="https://github.com/user-attachments/assets/a5459494-1451-4312-8d65-a7f9a748b927" />
   <br>
 </p>
 
@@ -220,10 +227,7 @@ In this experiment, we have selected 4 Pre-training Models for fine-tuning with 
 </p>
 
 - Network Architecture of Pre-training with Fine-tuning (The Best Performance Model)- **InceptionV3** - **Unfrozen last 40 layers**
-<p align="center">
-  <img width="761" height="285" alt="image" src="https://github.com/user-attachments/assets/d48fb231-5403-48f5-84f1-ed7ab5be2b61" />
-  <br>
-</p>
+<img width="761" height="285" alt="image" src="https://github.com/user-attachments/assets/d48fb231-5403-48f5-84f1-ed7ab5be2b61" />
 
 ### 4.4 NASNetMobile
 
@@ -329,37 +333,12 @@ The bubble chart shows the trade-off between training time, model accuracy, and 
 The Grad-CAM visualization of NASNetMobile shows that the model generally focuses on the key architectural features of each landmark when making correct predictions, such as the main structures of Petra or Christ the Redeemer. However, in misclassified cases, like Chichén Itzá → Great Wall of China and Rome Colosseum → Petra, the attention is less precise and often falls on less distinctive areas, leading to lower confidence. Overall, the results indicate that the model relies on meaningful visual cues but can struggle when the landmark features are ambiguous or partially visible. 
 
 ## 7. Discussion and Conclusion
-- Among the four CNN models tested for classifying the Seven Wonders of the World, InceptionV3 achieved the best overall performance with the highest accuracy (97.47%) and the lowest loss (0.0899) after fine-tuning, while also requiring the shortest training time per epoch (9.41s). ResNet50V2 showed very similar results (97.37% accuracy),    indicating that the performance difference between the two may not be statistically significant. In contrast, VGG16 performed the worst with the lowest accuracy (94.06%) and the highest loss (0.326), suggesting overfitting or poor generalization. NASNetMobile was lightweight and relatively fast but had higher loss, implying lower           confidence in predictions. Some anomalies were observed in VGG16 and NASNetMobile, likely due to overfitting and insufficient fine-tuning.
-
-- Recommendations:
-Future improvements could include using stronger data augmentation, adjusting learning rates, applying regularization (e.g., dropout, weight decay), and fine-tuning more layers for lightweight models like NASNetMobile. Additionally, conducting statistical tests such as a paired t-test between InceptionV3 and ResNet50V2 would help confirm   whether the difference in performance is statistically significant.
-
-- Eye Ball Analysis
-
-  Both before and after fine-tuning, the model still misclassified the image. However, the change in predicted class and higher confidence (from 0.43 → 0.77) suggests that the model learned additional visual features, though confusion remains between landmarks with similar scenery such as mountains     or sky backgrounds.
-<table align="center">
-  <tr>
-    <th style="text-align:center; font-size:18px;">Before Fine-tuning</th>
-    <th style="text-align:center; font-size:18px;">After Fine-tuning</th>
-  </tr>
-  <tr>
-    <td><img width="688" height="764" alt="image" src="https://github.com/user-attachments/assets/22f4dac8-0b5b-4a2c-b36d-3c951e9ea796" /></td>
-    <td><img width="688" height="764" alt="image" src="https://github.com/user-attachments/assets/21070f46-c563-4777-b9ec-9fc3ee02e102" /></td>
-  </tr>
-</table>
-
-<br>
-
-<table align="center">
-  <tr>
-    <th style="text-align:center; font-size:18px;">Before Fine-tuning</th>
-    <th style="text-align:center; font-size:18px;">After Fine-tuning</th>
-  </tr>
-  <tr>
-    <td><img width="622" height="631" alt="image" src="https://github.com/user-attachments/assets/f5485f9e-ffde-4603-b4cb-c36e7089354c" /></td>
-    <td><img width="622" height="631" alt="image" src="https://github.com/user-attachments/assets/e5e98e5a-46b7-4757-83fa-d4bf264b5919" /></td>
-  </tr>
-</table>
+<p align="center">
+ <img width="999" height="982" alt="image" src="https://github.com/user-attachments/assets/1706c756-0656-4f99-b2cc-3cb15a4606e2" /> 
+  <br>
+ </p>
+The experimental results show that InceptionV3 achieved the best performance with the highest accuracy (0.9747 ± 0.0068), the lowest loss, and the shortest training time. ResNet50V2 delivered comparable accuracy with stable performance, making it the most practical model for real-world deployment. VGG16 exhibited abnormally high loss despite reasonable accuracy, suggesting instability during fine-tuning, likely due to overfitting or an inappropriate learning rate. NASNetMobile had the lowest accuracy, reflecting its lightweight structure and limited feature extraction capability.
+To address the anomaly in VGG16, fine-tuning should be limited to fewer layers, the learning rate should be reduced, and regularization or early stopping can be applied. For NASNetMobile, performance could be improved by adding extra dense layers, adjusting fine-tuning depth, and using a more suitable optimizer. Additionally, class-specific data augmentation (especially for Machu Picchu) can reduce misclassification and enhance model robustness.
 
 
 ## 8. References
@@ -373,12 +352,12 @@ Future improvements could include using stronger data augmentation, adjusting le
 ## Member and Responsibility
 ### 👥 Team Contributions
 
-| No. | ID | Name 
-|:---:|:---:|:----------------------|
-| 1 | 6710422004 | Chenphop Chanphum
-| 2 | 6710422014 | Nattanon Jiwhanang 
-| 3 | 6710422029 | Tanapong Amkwanyeun 
-| 4 | 6710422032 | Tharathip Khumler 
+| No. | ID | Name | % Contribution | Responsibility |
+|:---:|:---:|:----------------------|:---------------:|:-------------------------------------------------------------|
+| 1 | 6710422004 | Chenphop Chanphum | 25% | - Collecting data (Machu Picchu and Great Wall of China) <br> - Fine-tune Model **Inception3** |
+| 2 | 6710422014 | Nattanon Jiwhanang | 25% | - Collecting data (Chichén Itzá and Petra) <br> - Fine-tune Model **VGG16** |
+| 3 | 6710422029 | Tanapong Amkwanyeun | 25% | - Collecting data (Christ the Redeemer) <br> - Fine-tune Model **NASNetMobile** |
+| 4 | 6710422032 | Tharathip Khumler | 25% | - Collecting data (Colosseum and Taj Mahal) <br> - Fine-tune Model **ResNet50V2** |
 
 ## End credit  
 
